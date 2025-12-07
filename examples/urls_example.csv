@@ -1,0 +1,5 @@
+url,store_name,category,brand
+https://www.newegg.com/example-gpu-1,Newegg,GPU,NVIDIA
+https://www.newegg.com/example-gpu-2,Newegg,GPU,AMD
+https://www.bestbuy.com/site/example-cpu/12345.p,Best Buy,CPU,Intel
+https://www.microcenter.com/product/12345/example-ram,Micro Center,RAM,Corsair

@@ -1,2 +1,25 @@
-fastapi
-uvicorn
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Database
+sqlmodel>=0.0.14
+psycopg2-binary>=2.9.9
+asyncpg>=0.29.0
+
+# Task queue
+celery[redis]>=5.3.6
+redis>=5.0.1
+
+# Web scraping
+beautifulsoup4>=4.12.3
+requests>=2.31.0
+lxml>=5.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# Development
+pytest>=8.0.0
+httpx>=0.26.0

@@ -1,0 +1,29 @@
+[
+  {
+    "store_name": "Newegg",
+    "category": "GPU",
+    "brand": "NVIDIA",
+    "urls": [
+      "https://www.newegg.com/example-gpu-product-1",
+      "https://www.newegg.com/example-gpu-product-2"
+    ]
+  },
+  {
+    "store_name": "Newegg",
+    "category": "CPU",
+    "brand": "AMD",
+    "urls": ["https://www.newegg.com/example-cpu-product-1"]
+  },
+  {
+    "store_name": "Best Buy",
+    "category": "GPU",
+    "brand": "AMD",
+    "urls": ["https://www.bestbuy.com/site/example-gpu-product/12345.p"]
+  },
+  {
+    "store_name": "Micro Center",
+    "category": "CPU",
+    "brand": "Intel",
+    "urls": ["https://www.microcenter.com/product/12345/example-cpu"]
+  }
+]
