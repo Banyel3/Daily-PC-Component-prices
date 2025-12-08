@@ -18,12 +18,16 @@ export const Stores = () => {
   const { stores, loading, error } = useStores();
 
   if (loading) {
-    return <LoadingSpinner />;
+    return (
+      <div className="max-w-7xl mx-auto px-4 lg:px-8 py-8">
+        <LoadingSpinner />
+      </div>
+    );
   }
 
   if (error) {
     return (
-      <div className="text-center py-12">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8 py-8 text-center">
         <p className="text-red-500">Failed to load stores</p>
         <p className="text-gray-500 text-sm mt-2">{error}</p>
       </div>
@@ -31,11 +35,14 @@ export const Stores = () => {
   }
 
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-900">Supported Stores</h1>
-        <p className="text-gray-500 mt-1">
-          We currently track prices from these major retailers.
+    <div className="max-w-7xl mx-auto px-4 lg:px-8 py-8">
+      <div className="mb-8">
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">
+          Supported Retailers
+        </h1>
+        <p className="text-gray-500">
+          We track prices from these major retailers daily to bring you the best
+          deals.
         </p>
       </div>
 

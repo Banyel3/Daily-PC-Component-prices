@@ -46,6 +46,19 @@ INITIAL_STORES = [
         "description": "Global e-commerce giant with a vast selection of PC components.",
         "status": "active",
     },
+    # Philippine e-commerce stores for search-based scraping
+    {
+        "name": "Lazada Philippines",
+        "url": "https://www.lazada.com.ph",
+        "description": "Leading Southeast Asian e-commerce platform. Supports automated search scraping.",
+        "status": "active",
+    },
+    {
+        "name": "Shopee Philippines",
+        "url": "https://shopee.ph",
+        "description": "Popular Southeast Asian e-commerce and social commerce platform. Supports automated search scraping.",
+        "status": "active",
+    },
 ]
 
 

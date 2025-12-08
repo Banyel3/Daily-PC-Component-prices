@@ -4,7 +4,7 @@ from contextlib import asynccontextmanager
 
 from backend.database import create_db_and_tables
 from backend.config import CORS_ORIGINS
-from backend.routes import products_router, stores_router, stats_router, scrape_urls_router
+from backend.routes import products_router, stores_router, stats_router, scrape_urls_router, search_configs_router
 
 
 @asynccontextmanager
@@ -37,6 +37,7 @@ app.include_router(products_router)
 app.include_router(stores_router)
 app.include_router(stats_router)
 app.include_router(scrape_urls_router)
+app.include_router(search_configs_router)
 
 
 @app.get("/")
